@@ -25,9 +25,9 @@ zombies, and you die a quick, painless death.''')
 
 
 def start():
-    print('''This game is a text adventure game made to test your general knowledge, critical thinking, and problem solving abilities. To answer
-the questions that will pop up during the game, copy and paste the given choices next to the question.
-If there are any problems with this game, please email the maker of this game at akronnie55@gmail.com''')
+    print('''This game is a text adventure game made to test your general knowledge, critical thinking, 
+    and problem solving abilities. If there are any problems with this game, please email the makers of this 
+    game at akronnie55@gmail.com or setharaphael7@gmail.com''')
 
     name = input("What is your name? This information is used for game purposes only and it will not be recorded. ")
 
@@ -83,19 +83,6 @@ What is your choice? >>> ''')
     else:
         urstupid()
 
-
-
-def check(theResponse):
-    if theResponse == "stairs":
-        stairs()
-    elif theResponse == "car":
-        car()
-    elif theResponse == "elevator":
-        elevator()
-    elif theResponse == "911":
-        call911()
-    else:
-        urstupid()
 
 def urstupid():
     print("Why would you do anything but what I have provided you with? You're so stupid that the zombies could smell it, and they come and eat you.")

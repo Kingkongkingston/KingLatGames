@@ -179,7 +179,8 @@ def gasStation():
         eatChips()
     elif response == "2":
         leaveGasStation()
-
+    else:
+        urstupid()
 
 def pizzaShopDeath():
     input('''

@@ -2,30 +2,54 @@ response = ""
 money = 100
 prestigeLevel = 0
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
 def prestige(money):
     if prestige == 1:
         print("Nice work, you're prestige level 1! You earned 10 cash!")
         money += 10
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
 def prestige2(money):
     if prestige == 2:
         print("Nice work, you're prestige level 2! You earned 20 cash!")
         money += 20
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
 def prestige3(money):
     if prestige == 3:
         print("Nice work, you're prestige level 3! You earned 30 cash!")
         money += 30
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
 def prestige4(money):
     if prestige == 4:
         print("Nice work, you're prestige level 4! You earned 40 cash")
         money += 40
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
 def prestige5(money):
     if prestige == 5:
         print("Your prestige level has maxed out! You earned 50 cash!")
@@ -61,7 +85,11 @@ zombies, and you die a quick, painless death.''')
 def start():
     print('''This game is a text adventure game made to test your general knowledge, critical thinking,
     and problem solving abilities. You can use cash to buy items like ammo and weapons.
+<<<<<<< HEAD
     If you take risky choices and succeed, you will be rewarded greatly with prestige levels. You gain cash every
+=======
+    If you tak risky choices and succeed, you will be rewarded greatly with prestige levels. You gain cash every
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
     time you level up. If there are any problems with this game, please email the makers of this
     game at akronnie55@gmail.com or setharaphael7@gmail.com''')
 
@@ -120,6 +148,10 @@ def pizzaShop():
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
@@ -127,6 +159,10 @@ def pizzaShop():
 
     if response == "1":
         response = print("Coming soon!")
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
     elif response == "2":
         response = print("Coming soon!")
     else:
@@ -145,6 +181,10 @@ def policeStation():
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
@@ -155,6 +195,10 @@ def leaveGasStation():
     response = input('''
     You decide that since you filled up your car with gas, you can visit the pizza shop or the police station.
     Where do you choose to go?
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
     Do you:
     1) Drive to the pizza shop
     2) Drive to the police station
@@ -172,6 +216,10 @@ def gasStation():
     The shop is empty, but you see some snack bags on the ground, and you pick them up.
     It looks like someone has messed with the bag, because there are blood marks on the bag and it has been
     opened. You look inside, and it smells weird. You take a chip, and examine it.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b
     Do you:
     1) Eat it
     2) Leave
@@ -245,6 +293,12 @@ def again():
         start()
     else:
         print("Ok. Come back and try again soon!")
+<<<<<<< HEAD
         quit()
 
 start()
+=======
+
+
+start()
+>>>>>>> 055b666a5a94f30f5d2a220a29e6cb4fff7b055b

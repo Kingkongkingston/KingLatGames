@@ -1,31 +1,34 @@
-response = ""
-money = 100
-prestigeLevel = 0
+
 
 def prestige(money):
     if prestige == 1:
         print("Nice work, you're prestige level 1! You earned 10 cash!")
         money += 10
 
+
 def prestige2(money):
     if prestige == 2:
         print("Nice work, you're prestige level 2! You earned 20 cash!")
         money += 20
+
 
 def prestige3(money):
     if prestige == 3:
         print("Nice work, you're prestige level 3! You earned 30 cash!")
         money += 30
 
+
 def prestige4(money):
     if prestige == 4:
         print("Nice work, you're prestige level 4! You earned 40 cash")
         money += 40
 
+
 def prestige5(money):
     if prestige == 5:
         print("Your prestige level has maxed out! You earned 50 cash!")
         money += 50
+
 
 def call911():
     response = input('''
@@ -116,7 +119,6 @@ def pizzaShop():
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
-
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
@@ -142,7 +144,7 @@ def policeStation():
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
-        
+
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
@@ -153,7 +155,6 @@ def leaveGasStation():
     response = input('''
     You decide that since you filled up your car with gas, you can visit the pizza shop or the police station.
     Where do you choose to go?
-
     Do you:
     1) Drive to the pizza shop
     2) Drive to the police station
@@ -163,14 +164,14 @@ def leaveGasStation():
     elif response == "2":
         policeStation()
 
+
 def gasStation():
-    input('''
+    response = input('''
     You fill up your car with gas, and walk around. You see a small shop, so ou open the door, and you hear a
     dinging noise. You flinch, but you realize that it's the bell on the door.
     The shop is empty, but you see some snack bags on the ground, and you pick them up.
     It looks like someone has messed with the bag, because there are blood marks on the bag and it has been
     opened. You look inside, and it smells weird. You take a chip, and examine it.
-
     Do you:
     1) Eat it
     2) Leave
@@ -182,6 +183,7 @@ def gasStation():
     else:
         urstupid()
 
+
 def pizzaShopDeath():
     input('''
     You should have filled up your car at the gas station, because your car's engine shuts off. The zombies notice
@@ -189,9 +191,11 @@ def pizzaShopDeath():
     ''')
     again()
 
+
 def policeStationDeath():
     pizzaShopDeath()
     again()
+
 
 def car():
     response = input('''
@@ -245,4 +249,8 @@ def again():
         print("Ok. Come back and try again soon!")
         quit()
 
+
 start()
+
+
+

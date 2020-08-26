@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 550a0393a898e63b336daa3866fa201897762bfc
 def prestige(money):
     if prestige == 1:
         print("Nice work, you're prestige level 1! You earned 10 cash!")
@@ -143,6 +148,10 @@ def policeStation():
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 550a0393a898e63b336daa3866fa201897762bfc
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
@@ -250,4 +259,11 @@ def again():
         quit()
 
 
+<<<<<<< HEAD
 start()
+=======
+start()
+
+
+
+>>>>>>> 550a0393a898e63b336daa3866fa201897762bfc

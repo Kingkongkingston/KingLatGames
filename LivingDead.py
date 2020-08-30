@@ -1,34 +1,4 @@
-prestige = 0
-
-def prestige1(money):
-    prestige = 1
-    print("Nice work, you're prestige level 1! You earned 10 cash!")
-    money += 10
-
-
-def prestige2(money):
-    prestige = 2
-    print("Nice work, you're prestige level 2! You earned 20 cash!")
-    money += 20
-
-
-def prestige3(money):
-    prestige = 3
-    print("Nice work, you're prestige level 3! You earned 30 cash!")
-    money += 30
-
-
-def prestige4(money):
-    prestige = 4
-    print("Nice work, you're prestige level 4! You earned 40 cash")
-    money += 40
-
-
-def prestige5(money):
-    prestige = 5
-    print("Your prestige level has maxed out! You earned 50 cash!")
-    money += 50
-
+money = 10
 
 def call911():
     response = input('''
@@ -106,7 +76,7 @@ def eatChips():
     again()
 
 
-def pizzaShop():
+def pizzaShop(money):
     response = input('''
     You decide to go to the pizza shop, because you were starving. On the way there, you see a zombie, no wait,
     its another survivor! You drive over to him, and he thinks you're a zombie, so he yells, "Back off, stinky
@@ -126,14 +96,14 @@ def pizzaShop():
 
     if response == "1":
         response = print("Coming soon!")
-        prestige1()
+        money += 20
     elif response == "2":
         response = print("Coming soon!")
     else:
         urstupid()
 
 
-def policeStation():
+def policeStation(money):
     response = input('''
     You decide to go to the police station, because you think its safe there. On the way there, you see a zombie,
     no wait,its another survivor! You drive over to him, and he thinks you're a zombie, so he yells,
@@ -154,7 +124,7 @@ def policeStation():
 
     if response == "1":
         response = print("Coming soon!")
-        prestige1()
+        money += 10
     elif response == "2":
         response = print("Coming soon!")
     else:
@@ -169,9 +139,9 @@ def leaveGasStation():
     2) Drive to the police station
     ''')
     if response == "1":
-        pizzaShop()
+        pizzaShop(money)
     elif response == "2":
-        policeStation()
+        policeStation(money)
 
 
 def gasStation():

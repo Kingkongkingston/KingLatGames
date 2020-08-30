@@ -1,36 +1,33 @@
-<<<<<<< HEAD
-=======
+prestige = 0
 
-
->>>>>>> 550a0393a898e63b336daa3866fa201897762bfc
-def prestige(money):
-    if prestige == 1:
-        print("Nice work, you're prestige level 1! You earned 10 cash!")
-        money += 10
+def prestige1(money):
+    prestige = 1
+    print("Nice work, you're prestige level 1! You earned 10 cash!")
+    money += 10
 
 
 def prestige2(money):
-    if prestige == 2:
-        print("Nice work, you're prestige level 2! You earned 20 cash!")
-        money += 20
+    prestige = 2
+    print("Nice work, you're prestige level 2! You earned 20 cash!")
+    money += 20
 
 
 def prestige3(money):
-    if prestige == 3:
-        print("Nice work, you're prestige level 3! You earned 30 cash!")
-        money += 30
+    prestige = 3
+    print("Nice work, you're prestige level 3! You earned 30 cash!")
+    money += 30
 
 
 def prestige4(money):
-    if prestige == 4:
-        print("Nice work, you're prestige level 4! You earned 40 cash")
-        money += 40
+    prestige = 4
+    print("Nice work, you're prestige level 4! You earned 40 cash")
+    money += 40
 
 
 def prestige5(money):
-    if prestige == 5:
-        print("Your prestige level has maxed out! You earned 50 cash!")
-        money += 50
+    prestige = 5
+    print("Your prestige level has maxed out! You earned 50 cash!")
+    money += 50
 
 
 def call911():
@@ -54,8 +51,8 @@ What is your choice? >>> ''')
 
 
 def stairs():
-    print('''You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
-zombies, and you die a quick, painless death.''')
+    print('''You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, 
+    bloodthirsty zombies, and you die a quick, painless death.''')
     again()
 
 
@@ -63,7 +60,6 @@ def start():
     print('''This game is a text adventure game made to test your general knowledge, critical thinking,
     and problem solving abilities. You can use cash to buy items like ammo and weapons.
     If you take risky choices and succeed, you will be rewarded greatly with prestige levels. You gain cash every
-    If you tak risky choices and succeed, you will be rewarded greatly with prestige levels. You gain cash every
     time you level up. If there are any problems with this game, please email the makers of this
     game at akronnie55@gmail.com or setharaphael7@gmail.com''')
 
@@ -130,6 +126,7 @@ def pizzaShop():
 
     if response == "1":
         response = print("Coming soon!")
+        prestige1()
     elif response == "2":
         response = print("Coming soon!")
     else:
@@ -142,22 +139,26 @@ def policeStation():
     no wait,its another survivor! You drive over to him, and he thinks you're a zombie, so he yells,
         "Back off, stinky citizen!", and shoots your tire.
         "Dude, i'm just another survivor, like you!", you shout.
-    Relieved, the guy walks over to you, apoligizes for shooting your tire, and shakes hands with you.
+    Relieved, the guy walks over to you, apologizes for shooting your tire, and shakes hands with you.
         "I'm terribly sorry for shooting your tire. How can I repay you?"
         "No thanks, i'm a mechanic, so I always carry a tool kit.", you say.
         After talking for a few minutes, the guy asks you,
         "I have a gang of 3 survivors and a dog a little south of here. I can help you survive if you join me...
         do you wanna join us?"
-<<<<<<< HEAD
-=======
 
->>>>>>> 550a0393a898e63b336daa3866fa201897762bfc
         Do you:
         1) Accept his offer
         2) Decline his offer, you're going to go solo
         What is your choice>>
     ''')
 
+    if response == "1":
+        response = print("Coming soon!")
+        prestige1()
+    elif response == "2":
+        response = print("Coming soon!")
+    else:
+        urstupid()
 
 def leaveGasStation():
     response = input('''
@@ -258,12 +259,4 @@ def again():
         print("Ok. Come back and try again soon!")
         quit()
 
-
-<<<<<<< HEAD
 start()
-=======
-start()
-
-
-
->>>>>>> 550a0393a898e63b336daa3866fa201897762bfc

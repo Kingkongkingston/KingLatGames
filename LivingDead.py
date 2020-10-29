@@ -263,20 +263,20 @@ def car():
 
 def elevator():
     response = print('''
-You press the elevator button, but nothing works, because the zombies cut out the power. What do you do?
-Do you:
-''')
-continueGame()
-input('''
-1) Go down via the stairs
-2) Get to the car instead
-What is your choice? >> ''')
-if response == "1":
-    stairs()
-elif response == "2":
-    car()
-else:
-    urstupid()
+    You press the elevator button, but nothing works, because the zombies cut out the power. What do you do?
+    Do you:
+    ''')
+    continueGame()
+    input('''
+    1) Go down via the stairs
+    2) Get to the car instead
+    What is your choice? >> ''')
+    if response == "1":
+        stairs()
+    elif response == "2":
+        car()
+    else:
+        urstupid()
 
 
 def urstupid():
